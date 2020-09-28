@@ -1,6 +1,7 @@
 from setuptools import setup
 
 REQUIRED_PACKAGES = [
+    'nbgitpuller==0.9.0',
     'jupyter-offlinenotebook==0.1.0',
     'pandas==1.1.2',
     'seaborn==0.10.1']
