@@ -1,7 +1,9 @@
 from setuptools import setup
 
 REQUIRED_PACKAGES = [
-    'pandas==0.24.2']
+    'jupyter-offlinenotebook==0.1.0',
+    'pandas==1.1.2',
+    'seaborn==0.10.1']
 
 setup(
     name='WagonIntroToDS',
